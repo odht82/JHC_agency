@@ -1,0 +1,33 @@
+.cost-sec{
+    background-color: #A8DADC;
+    /* width:526px; */
+    height:160px;
+    border-radius: 24px;
+    padding: 18px 28px 18px 28px ;
+}
+.cost-sec h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1D3557;
+    text-align: center;
+    line-height: 0px;
+}
+hr{
+    border: 1.5px solid #1D3557;
+    width: 90%;
+}
+.total-div{
+    margin-top:32px;
+}
+.total{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D3557;
+    margin-top: 0px;
+    line-height: 15px;
+}
+.total-dollar{
+    font-size: 24px;
+    font-weight: 700;
+    color: #457B9D;
+}

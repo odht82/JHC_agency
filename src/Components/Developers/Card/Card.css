@@ -1,0 +1,103 @@
+.card{
+    width: 346px;
+    height: 360px;
+    background-color: #A8DADC;
+    padding: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top-sec{
+    display: flex;
+    justify-content: flex-start;
+}
+.thumb{
+    border: 3px solid white;
+    border-radius:16px;
+    width: 120px;
+    height: 120px;
+}
+.thumb img{
+    width: 120px;
+    height: 120px;
+    object-fit: fill;
+    border-radius: 16px;
+    position: absolute;
+    clip: rect(0%, 0%, 0%, 0%);
+}
+.profile{
+    margin-left: 14px;    
+}
+.profile h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #457B9D;
+}
+.profile h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0px;
+    color: #457B9D;
+    margin-top: 4px;
+}
+.media-link{
+    margin-top: 18px;
+}
+.media-link img{
+    margin-right: 14px;
+}
+.mid-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.info{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.mid-sec h4 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.bottom-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.select-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 42px 10px 42px;
+    border-radius: 10px;
+    border: none;
+    background-color: #457B9D ;
+    color: white;
+    cursor: pointer;
+}
+.review{
+    margin: 0px;
+    line-height: 0px;
+}
+.review h4{
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+.select-btn:hover{
+    background-color: #1d3557ca ;
+    box-shadow: 5px 5px 10px #1d35574f;
+}
